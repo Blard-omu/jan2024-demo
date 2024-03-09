@@ -1,0 +1,141 @@
+/* create a css file and link it to the html page */
+/* select the html element you intend to style */
+/* call the css properties on the selected element */
+
+/* syntax */
+/* html-elem{
+    pro1: "value1";
+    pro2: "value2";
+    pro3: "value3";
+} */
+
+/* body{
+    background-color: aqua;
+} */
+
+/* Selectors */
+/* tagName, className, Id, descendant, psuedo, etc */
+
+/* Tag Name body, h1, p, form, main, div, etc */
+body{
+    background-color: aqua;
+}
+
+h1{
+    background-color: red;
+}
+p{
+    background-color: white;
+    color: blueviolet;
+}
+img{
+    border-radius: 15px;
+    /* border-radius: 50%; */
+}
+
+/* Class Name */
+/* .nameofclass{
+
+} */
+
+.fpara{
+    /* padding-bottom: 15px; */
+    padding: 15px 0;
+    /* text-align: center; */
+}
+.spara{
+    padding: 10px;
+    /* margin-right: 4rem; */
+    margin: 4rem 0;
+    padding: 20px;
+    background-color: gray;
+    color: black;
+}
+.container{
+    width: 200px;
+    height: 200px;
+}
+
+div.container{
+    background-color: blue;
+}
+section.container{
+    background-color: yellow;
+    margin-top: 2rem;
+}
+
+main.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Id */
+/* #myId{
+
+} */
+#eko{
+    /* display: none; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: 2rem;
+}
+
+/* unit px, rem, %, em, vh, svh, etc */
+
+/* descendant */
+/* div a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+} */
+
+div{
+    margin-top: 2rem;
+}
+div > a{
+    background-color: black;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* psuedo */
+div > a:hover{
+    background-color: hotpink;
+    color: black;
+}
+/* ol li:nth-child(3){
+    color: green;
+    background-color: antiquewhite;
+} */
+ol li:nth-child(odd){
+    color: green;
+    background-color: antiquewhite;
+}
+
+/* position */
+.avatar{
+    width: 150px;
+    height: 150px;
+    position: relative;
+
+}
+.avatar img{
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    outline: 2px solid white;
+
+
+}
+.avatar .online{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    outline: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top:  0;
+    right: 0;
+}
