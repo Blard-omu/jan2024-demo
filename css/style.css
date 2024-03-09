@@ -105,10 +105,10 @@ div > a:hover{
     background-color: hotpink;
     color: black;
 }
-/* ol li:nth-child(3){
+ol li:nth-child(3){
     color: green;
     background-color: antiquewhite;
-} */
+}
 ol li:nth-child(odd){
     color: green;
     background-color: antiquewhite;
